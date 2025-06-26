@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Abarrotes Los Güeros</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <div id="loginContainer">
+    <h2>Iniciar sesión</h2>
+    <input type="text" id="usuario" placeholder="Usuario" />
+    <input type="password" id="contrasena" placeholder="Contraseña" />
+    <button onclick="login()">Ingresar</button>
+  </div>
+
+  <div id="contenido" style="display:none;">
+    <header>
+      <h1 class="animado">Los Güeros</h1>
+      <nav>
+        <a href="#quienes">Quiénes Somos</a>
+        <a href="#productos">Productos</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#clientes">Clientes Satisfechos</a>
+      </nav>
+    </header>
+
+    <section id="quienes">
+      <h2>Quiénes Somos</h2>
+      <h3>Misión</h3>
+      <p>Ofrecer productos de calidad y excelente servicio.</p>
+      <h3>Visión</h3>
+      <p>Ser la tienda de abarrotes líder en nuestra comunidad.</p>
+      <h3>Objetivo</h3>
+      <p>Satisfacer las necesidades de nuestros clientes diariamente.</p>
+      <img src="a.jpg" class="borde-imagen" />
+    </section>
+
+    <section id="productos">
+      <h2>Productos</h2>
+<audio controls autoplay loop>
+  <source src="audio.wav" type="audio/wav">
+  Tu navegador no soporta audio WAV.
+</audio>
+
+      <div id="listaProductos"></div>
+      <div id="carrito"></div>
+    </section>
+
+    <section id="ubicacion">
+      <h2>Encuéntranos aquí</h2>
+     <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2smx!4v1750895627242!5m2!1ses!2smx!6m8!1m7!1sD63o0SaUHftIb6XO7Y_4gg!2m2!1d19.49030953789944!2d-99.03358182465315!3f203.58293325279698!4f2.5983950089412673!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <video controls autoplay loop>
+        <source src="ab.mp4" type="video/mp4" />
+      </video>
+      <div class="galeria-movimiento">
+        <img src="a.png" />
+        <img src="m.jpg" />
+      </div>
+    </section>
+
+    <section id="clientes">
+      <h2>Clientes Satisfechos</h2>
+      <div class="cliente">
+        <img src="n.jpeg" /><p>“Excelente servicio y productos frescos.”</p>
+      </div>
+      <div class="cliente">
+        <img src="o.jpg" /><p>“Siempre compro ahí. ¡Me encanta!”</p>
+      </div>
+      <div class="cliente">
+        <img src="p.jpeg" /><p>“Buena atención y buenos precios.”</p>
+      </div>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd52OsZ0OatDsBCjX4SFEhh58pkG4KmQOiOzn-4DnDgzjG4sQ/viewform?embedded=true" width="640" height="1371" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</body>
+</html>

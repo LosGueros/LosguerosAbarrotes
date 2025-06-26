@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fffacd;
+  padding: 10px;
+  text-align: center;
+}
+
+.animado {
+  animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+  from { transform: translateX(0); }
+  to { transform: translateX(15px); }
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  margin: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.borde-imagen {
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.galeria-movimiento img {
+  width: 200px;
+  margin: 10px;
+  transition: transform 0.5s;
+}
+
+.galeria-movimiento img:hover {
+  transform: scale(1.1);
+}
+
+#carrito {
+  margin-top: 20px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
